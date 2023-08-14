@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Caixa da Lanchonete</title>
+      <link rel="stylesheet" href="styles.css" />
+   </head>
+   <body>
+      <h1>Caixa da Lanchonete</h1>
+
+      <form id="pedido-form">
+         <label for="forma-pagamento">Forma de Pagamento:</label>
+         <select id="forma-pagamento">
+            <option value="dinheiro">Dinheiro</option>
+            <option value="debito">Débito</option>
+            <option value="credito">Crédito</option>
+         </select>
+         <br />
+         <label for="itens">Itens do Pedido (código,quantidade):</label>
+         <input type="text" id="itens" placeholder="Ex: cafe,1 chantily,1" />
+         <br />
+         <button type="button" id="calcular">Calcular Valor</button>
+      </form>
+
+      <div id="resultado"></div>
+
+      <script>
+         // Restante do seu código JavaScript
+      </script>
+   </body>
+</html>
